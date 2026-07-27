@@ -72,7 +72,7 @@ function getConfig() {
     },
     googleai: {
       apiUrl: "/api/ai/googleai",
-      model: "gemini-2.0-flash",
+      model: "gemini-2.0-flash-lite",
       headers: {
         "x-goog-api-key": key,
       },

@@ -19,7 +19,7 @@ export default defineConfig({
       '/api/ai/googleai': {
         target: 'https://generativelanguage.googleapis.com',
         changeOrigin: true,
-        rewrite: (path) => path.replace(/^\/api\/ai\/googleai/, '/v1beta/models/gemini-2.0-flash:generateContent'),
+        rewrite: (path) => path.replace(/^\/api\/ai\/googleai/, '/v1beta/models/gemini-2.0-flash-lite:generateContent'),
       },
     },
   },
